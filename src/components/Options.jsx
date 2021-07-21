@@ -7,6 +7,7 @@ import EvaluadorLogin from "./EvaluadorLogin";
 import Resultado from "./Resultado";
 
 const Options = () => {
+    
     return (
         <Router>
             <Switch>

@@ -8,7 +8,7 @@ const LoginWrapper = styled.div`
         border: 1px solid rgba(81, 196, 211,0.75);
         box-shadow: 5px 5px 5px rgba(81, 196, 211,0.25);
         margin: auto;
-        margin-top: 10em;
+        margin-top: 15em;
         background-color:white;
     }
 
