@@ -49,7 +49,7 @@ const InformeOperativo=()=>{
                             <b>Conocimiento técnico y normativo</b>
                             </Form.Label>
                             <Col sm={1}>
-                            <Form.Control type="number" min="1" max="5" />
+                            <Form.Control type="number" min="1" max="5" required/>
                             </Col>
                         </Form.Group>
 
@@ -59,7 +59,7 @@ const InformeOperativo=()=>{
                             <b>Cumplimiento de tares asignadas y protocolos</b>
                             </Form.Label>
                             <Col sm={1}>
-                            <Form.Control type="number" min="1" max="5" />
+                            <Form.Control type="number" min="1" max="5" required/>
                             </Col>
                         </Form.Group>
 
@@ -69,7 +69,7 @@ const InformeOperativo=()=>{
                             <b>Servicio al ciudadano</b>
                             </Form.Label>
                             <Col sm={1}>
-                            <Form.Control type="number" min="1" max="5" />
+                            <Form.Control type="number" min="1" max="5" required/>
                             </Col>
                         </Form.Group>
 
@@ -79,7 +79,7 @@ const InformeOperativo=()=>{
                             <b>Vocación de servicio</b>
                             </Form.Label>
                             <Col sm={1}>
-                            <Form.Control type="number" min="1" max="5" />
+                            <Form.Control type="number" min="1" max="5" required/>
                             </Col>
                         </Form.Group>
 
@@ -89,7 +89,7 @@ const InformeOperativo=()=>{
                             <b>Cuidado de los elementos de trabajo</b>
                             </Form.Label>
                             <Col sm={1}>
-                            <Form.Control type="number" min="1" max="5" />
+                            <Form.Control type="number" min="1" max="5" required/>
                             </Col>
                         </Form.Group>
 
@@ -99,7 +99,7 @@ const InformeOperativo=()=>{
                             <b>Iniciativa</b>
                             </Form.Label>
                             <Col sm={1}>
-                            <Form.Control type="number" min="1" max="5" />
+                            <Form.Control type="number" min="1" max="5" required/>
                             </Col>
                         </Form.Group>
 
@@ -109,7 +109,7 @@ const InformeOperativo=()=>{
                             <b>Trabajo en equipo</b>
                             </Form.Label>
                             <Col sm={1}>
-                            <Form.Control type="number" min="1" max="5" />
+                            <Form.Control type="number" min="1" max="5" required/>
                             </Col>
                         </Form.Group>
 
@@ -119,7 +119,7 @@ const InformeOperativo=()=>{
                             <b>Resolución de problemas</b>
                             </Form.Label>
                             <Col sm={1}>
-                            <Form.Control type="number" min="1" max="5" />
+                            <Form.Control type="number" min="1" max="5" required/>
                             </Col>
                         </Form.Group>
 
@@ -129,7 +129,7 @@ const InformeOperativo=()=>{
                             <b>Comunicación</b>
                             </Form.Label>
                             <Col sm={1}>
-                            <Form.Control type="number" min="1" max="5" />
+                            <Form.Control type="number" min="1" max="5" required/>
                             </Col>
                         </Form.Group>
 
@@ -139,7 +139,7 @@ const InformeOperativo=()=>{
                             <b>Compromiso institucional</b>
                             </Form.Label>
                             <Col sm={1}>
-                            <Form.Control type="number" min="1" max="5" />
+                            <Form.Control type="number" min="1" max="5" required/>
                             </Col>
                         </Form.Group>
 
@@ -149,7 +149,7 @@ const InformeOperativo=()=>{
                             <b>Adaptabilidad y flexibilidad</b>
                             </Form.Label>
                             <Col sm={1}>
-                            <Form.Control type="number" min="1" max="5" />
+                            <Form.Control type="number" min="1" max="5" required/>
                             </Col>
                         </Form.Group>
 
@@ -159,7 +159,7 @@ const InformeOperativo=()=>{
                             <b>Presentismo</b>
                             </Form.Label>
                             <Col sm={1}>
-                            <Form.Control type="number" min="1" max="5" />
+                            <Form.Control type="number" min="1" max="5" required/>
                             </Col>
                         </Form.Group>
 
@@ -169,7 +169,7 @@ const InformeOperativo=()=>{
                             <b>Relación con su superior </b>
                             </Form.Label>
                             <Col sm={1}>
-                            <Form.Control type="number" min="1" max="5" />
+                            <Form.Control type="number" min="1" max="5" required/>
                             </Col>
                         </Form.Group>
 
@@ -184,7 +184,7 @@ const InformeOperativo=()=>{
                             <Form.Control
                                 as="textarea"
                                 style={{ height: '8em' }}
-                                />
+                                required/>
                             </Col>
                         </Form.Group>
 
