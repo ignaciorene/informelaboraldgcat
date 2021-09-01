@@ -5,7 +5,7 @@ import { Button } from "react-bootstrap";
 import {BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Options from "./Options";
 
-const Login = () => {
+const Login = ({onLogin}) => {
     return (
         <Router>
             <Switch>
@@ -22,9 +22,7 @@ const Login = () => {
                             <Form>
                                 <Form.Control type="text" placeholder="Ingrese su CUIT sin guiones..." />
                                 <div class="login-form--button">
-                                    <Link to="/options">
-                                        <Button variant="primary">INGRESAR</Button>
-                                    </Link>
+                                    <Button variant="primary" onClick={onLogin}>INGRESAR</Button>
                                 </div>
                             </Form>
                         </div>
