@@ -1,12 +1,18 @@
 import LoginView from "../components/Login"
 import axios from "axios"
+import { useState } from "react"
 
-const Login = ()=>{
+const Login = ({history}) => {
+    const [cuit, cuitFunc] = useState("")
 
-    const onLogin = ()=>{
-        axios.post("/api/login")
+    const onLogin = () => {
+        axios.post("/api/login", {
+            cuit: cuit
+        })
             .then(_=>{
                 console.log("info ok")
+                console.info(history)
+                history.push('/options')
             })
             .catch(_=>{
                 console.log("info error")
@@ -14,7 +20,17 @@ const Login = ()=>{
         console.log("onLogin")
     }
 
-    return <LoginView onLogin={onLogin}/>
+    const onChangeCuit = (e) => {
+        cuitFunc(e.target.value)
+    }
+
+    return (
+        <LoginView
+            onChangeCuit={onChangeCuit}
+            cuit={cuit}
+            onLogin={onLogin}
+        />
+    )
 }
 
 export default Login
