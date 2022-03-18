@@ -40,7 +40,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Conocimiento técnico y normativo</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -50,7 +50,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Cumplimiento de tares asignadas y protocolos</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -60,7 +60,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Servicio al ciudadano</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -70,7 +70,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Vocación de servicio</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -80,7 +80,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Cuidado de los elementos de trabajo</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -90,7 +90,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Iniciativa</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -100,7 +100,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Trabajo en equipo</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -110,7 +110,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Resolución de problemas</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -120,7 +120,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Comunicación</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -130,7 +130,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Compromiso institucional</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -140,7 +140,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Adaptabilidad y flexibilidad</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -150,7 +150,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Presentismo</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -160,7 +160,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Relación con el personal a cargo</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -170,7 +170,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Relación con su superior</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -180,7 +180,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Relación con otras áreas</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -190,7 +190,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Liderazgo</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -200,7 +200,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Planificación y organización del trabajo</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -210,7 +210,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Formación contínua</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -220,7 +220,7 @@ const InformeJerarquicoOperativo=()=>{
                     <b>Aporte al desarrollo y crecimiento del equipo</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" />
+                    <Form.Control type="number" min="1" max="5" required/>
                     </Col>
                 </Form.Group>
 
@@ -235,7 +235,7 @@ const InformeJerarquicoOperativo=()=>{
                     <Form.Control
                         as="textarea"
                         style={{ height: '8em' }}
-                        />
+                        required />
                     </Col>
                 </Form.Group>
 
