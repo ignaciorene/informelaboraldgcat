@@ -40,7 +40,7 @@ const InformeAdministrativo=()=>{
                     <b>Conocimiento técnico y normativo</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" required/>
+                    <Form.Control type="number" min="1" max="5" />
                     </Col>
                 </Form.Group>
 
@@ -50,7 +50,7 @@ const InformeAdministrativo=()=>{
                     <b>Cumplimiento de tares asignadas y protocolos</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" required/>
+                    <Form.Control type="number" min="1" max="5" />
                     </Col>
                 </Form.Group>
 
@@ -60,7 +60,7 @@ const InformeAdministrativo=()=>{
                     <b>Conciencia de rol</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" required/>
+                    <Form.Control type="number" min="1" max="5" />
                     </Col>
                 </Form.Group>
 
@@ -70,7 +70,7 @@ const InformeAdministrativo=()=>{
                     <b>Cuidado de los elementos de trabajo</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" required/>
+                    <Form.Control type="number" min="1" max="5" />
                     </Col>
                 </Form.Group>
 
@@ -80,7 +80,7 @@ const InformeAdministrativo=()=>{
                     <b>Iniciativa</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" required/>
+                    <Form.Control type="number" min="1" max="5" />
                     </Col>
                 </Form.Group>
 
@@ -90,7 +90,7 @@ const InformeAdministrativo=()=>{
                     <b>Trabajo  colaborativo / en equipo</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" required/>
+                    <Form.Control type="number" min="1" max="5" />
                     </Col>
                 </Form.Group>
 
@@ -100,7 +100,7 @@ const InformeAdministrativo=()=>{
                     <b>Resolución de problemas</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" required/>
+                    <Form.Control type="number" min="1" max="5" />
                     </Col>
                 </Form.Group>
 
@@ -110,7 +110,7 @@ const InformeAdministrativo=()=>{
                     <b>Comunicación</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" required/>
+                    <Form.Control type="number" min="1" max="5" />
                     </Col>
                 </Form.Group>
 
@@ -120,7 +120,7 @@ const InformeAdministrativo=()=>{
                     <b>Compromiso institucional</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" required/>
+                    <Form.Control type="number" min="1" max="5" />
                     </Col>
                 </Form.Group>
 
@@ -130,7 +130,7 @@ const InformeAdministrativo=()=>{
                     <b>Adaptabilidad y flexibilidad</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" required/>
+                    <Form.Control type="number" min="1" max="5" />
                     </Col>
                 </Form.Group>
 
@@ -140,7 +140,7 @@ const InformeAdministrativo=()=>{
                     <b>Presentismo</b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" required/>
+                    <Form.Control type="number" min="1" max="5" />
                     </Col>
                 </Form.Group>
 
@@ -150,7 +150,7 @@ const InformeAdministrativo=()=>{
                     <b>Relación con su superior </b>
                     </Form.Label>
                     <Col sm={1}>
-                    <Form.Control type="number" min="1" max="5" required/>
+                    <Form.Control type="number" min="1" max="5" />
                     </Col>
                 </Form.Group>
 
@@ -165,7 +165,7 @@ const InformeAdministrativo=()=>{
                     <Form.Control
                         as="textarea"
                         style={{ height: '8em' }}
-                        required/>
+                        />
                     </Col>
                 </Form.Group>
 

@@ -2,12 +2,16 @@ import React from "react";
 import LoginWrapper from "../styles/Login";
 import { Form } from "react-bootstrap";
 import { Button } from "react-bootstrap";
-import {BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Options from "./Options";
 
-const Login = ({onLogin, cuit, onChangeCuit}) => {
+const Login = () => {
     return (
         <Router>
             <Switch>
+                <Route path="/options">
+                    <Options />
+                </Route>
                 <Route path="/">
                 <LoginWrapper>
                     <div class="login-container">
@@ -16,9 +20,11 @@ const Login = ({onLogin, cuit, onChangeCuit}) => {
                         </div>
                         <div class="login-form">
                             <Form>
-                                <Form.Control onChange={onChangeCuit} value={cuit} type="text" placeholder="Ingrese su CUIT sin guiones..." />
+                                <Form.Control type="text" placeholder="Ingrese su CUIT sin guiones..." />
                                 <div class="login-form--button">
-                                    <Button variant="primary" onClick={onLogin}>INGRESAR</Button>
+                                    <Link to="/options">
+                                        <Button variant="primary">INGRESAR</Button>
+                                    </Link>
                                 </div>
                             </Form>
                         </div>
